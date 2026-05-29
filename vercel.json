@@ -1,12 +1,12 @@
 {
   "experimentalServices": {
     "frontend": {
-      "entrypoint": "frontend",
+      "entrypoint": "package.json",
       "root": "frontend",
       "routePrefix": "/"
     },
     "backend": {
-      "entrypoint": "backend/server.js",
+      "entrypoint": "server.js",
       "root": "backend",
       "routePrefix": "/api"
     }
