@@ -3,7 +3,8 @@
     "frontend": {
       "entrypoint": "package.json",
       "root": "frontend",
-      "routePrefix": "/"
+      "routePrefix": "/",
+      "framework": "vite"
     },
     "backend": {
       "entrypoint": "server.js",
