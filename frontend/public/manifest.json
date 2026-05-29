@@ -1,0 +1,17 @@
+{
+  "name": "AetherTalk - Premium AI Chatbot",
+  "short_name": "AetherTalk",
+  "description": "A premium modern full-stack AI chatbot platform with custom AI personalities, real-time messaging, and productivity tools.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
