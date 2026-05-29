@@ -1,12 +1,13 @@
 {
   "experimentalServices": {
     "frontend": {
-      "entrypoint": "frontend/package.json",
-      "routePrefix": "/",
-      "builder": "@vercel/static-build"
+      "entrypoint": "frontend",
+      "root": "frontend",
+      "routePrefix": "/"
     },
     "backend": {
       "entrypoint": "backend/server.js",
+      "root": "backend",
       "routePrefix": "/api"
     }
   }
